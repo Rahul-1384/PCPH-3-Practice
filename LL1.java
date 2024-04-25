@@ -20,7 +20,7 @@ public class LL1 {
         Node temp=head;
         while(temp!=null){
             if(temp.data%2!=0){
-                dummyOdd=
+                
             }
         }
     }
