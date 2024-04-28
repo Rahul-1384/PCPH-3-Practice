@@ -3,6 +3,7 @@ import java.util.Stack;
 public class ValidParenthesis {
     public static boolean validParenthesis(String str){
         Stack<Character> st=new Stack<>();
+        
         boolean flag=true;
         for(int i=0;i<str.length();i++){
             if(str.charAt(0)==')' || str.charAt(0)=='}' || str.charAt(0)==']'){
@@ -29,7 +30,7 @@ public class ValidParenthesis {
         return false;
     }
     public static void main(String[] args) {
-        String str="(){}[])";
+        String str="(){}[]";
         System.out.println(validParenthesis(str));
     }
 }
