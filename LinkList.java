@@ -22,6 +22,7 @@ public class LinkList {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
+        // Taking input from user
         Node head=new Node(-1);
         Node curr=head;
         for(int i=0;i<n;i++){
